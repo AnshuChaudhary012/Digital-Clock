@@ -1,0 +1,58 @@
+body{
+    background-color: #1A1A2E;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+h1{
+    font-size: 14px;
+}
+
+.clockArea{
+ background-color: #212121;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(135, 202, 228, 0.2);
+  min-width: 307px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 0.5fr 5fr 2fr;
+  text-align: center;
+}
+
+.fucture{
+    grid-column-start: 2;
+    
+}
+
+.fucture img:hover{
+    background-color: #232325 ;
+    border-radius: 50%;
+    
+}
+
+img {
+    padding: 7px;
+
+}
+
+.clock{
+    font-size: 70px;
+    
+}
+
+.amsec{
+    display: flex;
+    flex-direction: column;
+    gap: 50%;
+}
+.day{
+    padding-top: 12px;
+}
